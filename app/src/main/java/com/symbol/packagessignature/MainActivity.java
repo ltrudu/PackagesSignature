@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
     {
         List<Package> packageList = getPackagesData();
         savePackageList(packageList);
-        finish();
+        MainActivity.this.finishAffinity();
+        System.exit(0);
     }
 
     private List<Package> getPackagesData() {
