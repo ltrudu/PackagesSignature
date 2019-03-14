@@ -22,7 +22,6 @@ public class PackageJSONSerializer implements JsonSerializer<Package> {
         object.add("versioncode", context.serialize(packageInfo.versioncode));
         object.add("sourcedir", context.serialize(packageInfo.sourceDir));
         object.add("packageName", context.serialize(packageInfo.packageName));
-        object.add("packageSignature", context.serialize(packageInfo.packageSignature));
         object.add("firstInstallTime", context.serialize(packageInfo.firstInstallTime));
         object.add("lastUpdateTime", context.serialize(packageInfo.lastUpdateTime));
         object.add("activities", context.serialize(packageInfo.activities));
@@ -30,6 +29,8 @@ public class PackageJSONSerializer implements JsonSerializer<Package> {
         object.add("services", context.serialize(packageInfo.services));
         object.add("providers", context.serialize(packageInfo.providers));
         object.add("permissions", context.serialize(packageInfo.permissions));
+        object.add("packageSignature", context.serialize(packageInfo.packageSignature));
+        object.add("packageSignatureHex", context.serialize(packageInfo.packageSignatureHex));
 
         return object;
     }

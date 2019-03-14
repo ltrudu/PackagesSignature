@@ -170,6 +170,7 @@ public class MainActivity extends AppCompatActivity {
             if(signatures != null && signatures.length > 0)
             {
                 packageItem.packageSignature = signatures[0].toCharsString();
+                packageItem.packageSignatureHex = Helpers.bytesToHex(signatures[0].toByteArray());
             }
 
         }

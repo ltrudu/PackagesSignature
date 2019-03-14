@@ -20,6 +20,7 @@ public class Package {
     public String               sourceDir;
     public String               packageName;
     public String               packageSignature    = null;
+    public String               packageSignatureHex = null;
     public Date                 firstInstallTime;
     public Date                 lastUpdateTime;
     public List<String>         activities          = new ArrayList<String>();
