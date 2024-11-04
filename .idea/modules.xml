@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PackagesSignature.iml" filepath="$PROJECT_DIR$/PackagesSignature.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PackagesSignature.app.unitTest.iml" />
     </modules>
   </component>
 </project>

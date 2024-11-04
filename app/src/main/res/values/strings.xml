@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PackagesSignature</string>
+    <string name="app_title">PackagesSignature</string>
+    <string name="loading_status">Loading Application</string>
 </resources>
